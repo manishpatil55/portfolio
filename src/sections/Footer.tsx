@@ -22,17 +22,13 @@ const footerLinks = [
 export const Footer = () => {
   return (
     <footer id="footer" className="relative -z-10 overflow-x-clip">
-      {/* Mask image for gradient effect */}
       <div className="absolute h-[400px] w-[1600px] bottom-0 left-1/2 -translate-x-1/2 bg-emerald-300/30 [mask-image:radial-gradient(50%_50%_at_bottom_center,black,transparent)] -z-10"></div>
       
       <div className="container">
         <div className="border-t border-white/15 py-6 text-sm flex flex-col md:flex-row md:justify-between items-center gap-8">
-          {/* Footer copyright text */}
           <div className="text-white/40">&copy; 2025. All rights reserved.</div>
-          
-          {/* Links section */}
           <div>
-            <nav className="flex flex-col md:flex-row items-center gap-8">
+            <nav className="flex flex-col md:flex-row items-center gap-8 z-20 ">
               {footerLinks.map(link => (
                 <a
                   href={link.href}
@@ -40,10 +36,8 @@ export const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
-                    <span>{link.title}</span>
-                    <ArrowUpRightIcon className="size-4" />
-                  </button>
+                  <span className="font-semibold">{link.title}</span>
+                  <ArrowUpRightIcon className="size-4" />
                 </a>
               ))}
             </nav>
