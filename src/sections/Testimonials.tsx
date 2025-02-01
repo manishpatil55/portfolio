@@ -43,7 +43,7 @@ const testimonials = [
 
 export const TestimonialsSection = () => {
   return (
-    <div className="py-16 lg:py-24">
+    <div id="testimonials" className="py-16 lg:py-24">
       <div className="container">
         <SectionHeader 
           eyebrow="Happy Clients" 

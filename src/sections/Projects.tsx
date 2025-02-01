@@ -49,7 +49,7 @@ const portfolioProjects = [
 
 export const ProjectsSection = () => {
   return (
-     <section className="pb-16 lg:py-24">
+     <section id="projects" className="pb-16 lg:py-24">
         <div className="container">
           <SectionHeader 
             eyebrow="Real-world Results" 
@@ -60,7 +60,7 @@ export const ProjectsSection = () => {
             {portfolioProjects.map((project, projectIndex) => (
               <Card key={project.title} className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky top-16" 
               style={{
-                top: `calc(64px + ${projectIndex * 40}px)`,
+                top: `calc(64px + ${projectIndex * 38}px)`,
               }}>
                 <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                   <div className="lg:pb-16">
