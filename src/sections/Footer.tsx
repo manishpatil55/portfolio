@@ -3,19 +3,19 @@ import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg'
 const footerLinks = [
   {
     title: 'GitHub',
-    href: '#',
+    href: 'https://github.com/manishpatil55/',
   },
   {
     title: 'LinkedIn',
-    href: '#',
+    href: 'https://www.linkedin.com/in/manishkakulde/',
   },
   {
     title: 'Instagram',
-    href: '#',
+    href: 'https://www.instagram.com/manishpatil.55/',
   },
   {
-    title: 'Twitter',
-    href: '#',
+    title: 'Google Cloud',
+    href: 'https://www.cloudskillsboost.google/public_profiles/d34b4468-ff57-480d-8675-b9a4e550d50b',
   },
 ]
 
