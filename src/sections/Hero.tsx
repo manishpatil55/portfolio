@@ -1,10 +1,10 @@
-import memojiImage from "../assets/images/memoji-computer.png";
+ import memojiImage from "../assets/images/memoji-computer.png";
 import Image from "next/image";
 import ArrowDown from "../assets/icons/arrow-down.svg";
 import grainImage from "../assets/images/grain.jpg";
 import StarIcon from "../assets/icons/star.svg";
-import SparkleIcon from "../components/SparkleIcon"; // Import SparkleIcon
-import HeroOrbit from "../components/HeroOrbit"; // Import HeroOrbit
+import SparkleIcon from "../assets/icons/sparkle.svg"; 
+import { HeroOrbit } from "../components/HeroOrbit";
 
 export const HeroSection = () => {
   return (
