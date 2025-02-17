@@ -4,8 +4,6 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: "/portfolio",
-  assetPrefix: "/portfolio",
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>
